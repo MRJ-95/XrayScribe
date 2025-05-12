@@ -1,4 +1,4 @@
-# 🩻 IU Chest X-ray Report Generator
+#  IU Chest X-ray Report Generator
 
 This repository contains an end-to-end pipeline for generating and refining diagnostic **radiology reports** using **frontal chest X-rays** and **patient history**, based on the **Indiana University Chest X-ray Dataset**.
 
@@ -102,7 +102,4 @@ Each image results in:
 
 ## 🧑‍💻 Author
 
-Built by [Your Name]  
-M.S. in Computer Science | Healthcare AI Enthusiast  
-📫 your.email@domain.com  
-🌐 [LinkedIn] | [Portfolio]
+Built by Mayur Rattan Jaisinghani
