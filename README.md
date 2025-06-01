@@ -82,6 +82,33 @@ Each image results in:
 - 📄 Refined report (using patient history)
 - 📈 Evaluation metrics: BLEU / ROUGE
 
+Initial Report (Image-only, DenseNet + Flan-T5)
+Findings:
+There is patchy opacity in the right lower lung field suggestive of consolidation. No pneumothorax or pleural effusion is identified. Cardiac silhouette is within normal limits.
+
+Impression:
+Right lower lobe pneumonia. No acute cardiopulmonary abnormality otherwise.
+
+Refined Report (Image + Clinical Context)
+Indication:
+Cough and fever for 4 days. History of smoking. Comparison to study from 2 days prior.
+
+Comparison:
+Compared with prior study dated 2025-05-15.
+
+Findings:
+Interval development of dense consolidation in the right lower lobe compared to prior. Mild peribronchial thickening is noted. No pleural effusion or pneumothorax.
+
+Impression:
+Progressive right lower lobe pneumonia with new consolidation since prior imaging. Findings consistent with ongoing infectious process.
+
+Evaluation Metrics:
+BLEU Score: 0.41
+
+ROUGE-L Score: 0.68
+
+Improvement after context refinement: +0.08 ROUGE, +0.06 BLEU
+
 ---
 
 ## 🧠 Highlights
