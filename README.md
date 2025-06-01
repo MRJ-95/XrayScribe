@@ -103,3 +103,12 @@ Each image results in:
 ## 🧑‍💻 Author
 
 Built by Mayur Rattan Jaisinghani
+
+
+References:
+1. Automated Radiology Report Generation using Conditioned Transformers: This work introduces a three-stage pipeline that fine-tunes CheXNet (a DenseNet variant) to predict image tags, computes semantic embeddings from these tags, and conditions a pre-trained GPT-2 model on both visual and semantic features to generate comprehensive reports. 
+
+2. ChestX-Transcribe: This study presents a multimodal transformer model that integrates a Swin Transformer for high-resolution visual feature extraction with DistilGPT for generating clinically relevant reports. The model demonstrates state-of-the-art performance on the IU X-Ray dataset. 
+Frontiers
+
+3. Clinical Context-aware Radiology Report Generation from Medical Images using Transformers: This research investigates the use of transformer models for radiology report generation, emphasizing the importance of incorporating clinical context to enhance the coherence and diagnostic value of the generated reports.
